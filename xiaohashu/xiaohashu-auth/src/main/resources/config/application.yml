@@ -1,0 +1,9 @@
+server:
+  port: 8080 # 项目启动端口
+
+spring:
+  profiles:
+    active: dev
+
+mybatis:
+  mapper-locations: classpath:/mapper/**/*.xml
